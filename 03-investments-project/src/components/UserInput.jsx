@@ -1,4 +1,4 @@
-export default function UserInput({ onChange, UserInput}) {
+export default function UserInput({ onChange, userInput }) {
     return (
         <section id="user-input">
             <div className="input-group">
@@ -7,9 +7,9 @@ export default function UserInput({ onChange, UserInput}) {
                     <input 
                         type="number" 
                         required
-                        value={UserInput.initialInvestment} 
+                        value={userInput.initialInvestment} 
                         onChange={(event) => 
-                            handleChange('initialInvestment', event.target.value)
+                            onChange('initialInvestment', event.target.value)
                         }
                     />
                 </p>
@@ -18,9 +18,9 @@ export default function UserInput({ onChange, UserInput}) {
                     <input 
                         type="number" 
                         required 
-                        value={UserInput.annualInvestment} 
+                        value={userInput.annualInvestment} 
                         onChange={(event) => 
-                            handleChange('annualInvestment', event.target.value)
+                            onChange('annualInvestment', event.target.value)
                         }
                     />
                 </p>
@@ -31,9 +31,9 @@ export default function UserInput({ onChange, UserInput}) {
                     <input 
                         type="number" 
                         required 
-                        value={UserInput.expectedReturn} 
+                        value={userInput.expectedReturn} 
                         onChange={(event) => 
-                            handleChange('expectedReturn', event.target.value)
+                            onChange('expectedReturn', event.target.value)
                         }
                     />
                 </p>
@@ -42,9 +42,9 @@ export default function UserInput({ onChange, UserInput}) {
                     <input 
                         type="number" 
                         required 
-                        value={UserInput.duration} 
+                        value={userInput.duration} 
                         onChange={(event) => 
-                            handleChange('duration', event.target.value)
+                            onChange('duration', event.target.value)
                         }
                     />
                 </p>
