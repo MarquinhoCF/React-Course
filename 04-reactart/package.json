@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^6.1.8"
+    "styled-components": "^6.1.8",
+    "styling": "file:"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
@@ -25,6 +26,6 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
-    "vite": "^4.4.0"
+    "vite": "^4.5.5"
   }
 }
